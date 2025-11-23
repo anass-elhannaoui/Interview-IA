@@ -67,7 +67,3 @@ git commit -m "Remove secrets from repo"
 - Never commit `.streamlit/secrets.toml` or any file with secret keys.
 - My `.gitignore` includes `.streamlit/` so secrets won't be tracked by default.
 
-## TODO / Improvements
-- Consider streaming responses or async calls for better UX.
-- Lock model names to ones available to your API key / SDK version.
-- Add unit tests or CI if you plan to share the project.
